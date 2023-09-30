@@ -7,7 +7,7 @@ A Binary Search Tree (BST) is a non-linear hierarchycal tree data structre with 
 ## My functions
 | name       | parameters           | returns | description                                                                                                                                                                       |
 |------------|----------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| init_node  | int val              | Node*   | allocates memory for a new node and return a pointer to it                                                                                                                        |
+| init_node  | int val              | Node*   | allocates memory for a new node and returns a pointer to it                                                                                                                        |
 | insert     | Node** root, int val | Node*   | inserts a new node with a key of `val` and returns a pointer to it                                                                                                                |
 | search     | Node* root, int val  | Node*   | searchs for a specific node with value `val` starting from root node, returns a pointer to the found node on the first occurance or null pointer if there is no occurance at all. |
 | isInTree   | Node* root, int val  | bool    | checks if a node with a key of `val` is existent in the tree, returns true if yes. just a shorthand of saying `search(root,val) == NULL`                                          |
