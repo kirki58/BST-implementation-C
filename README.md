@@ -1,5 +1,5 @@
 # Binary Search Tree
-I've implemented Binary Search Tree data structure with some handy function in C.
+I've implemented Binary Search Tree data structure with some handy functions in C.
 
 ## What are BSTs?
 A Binary Search Tree (BST) is a non-linear hierarchycal tree data structre with some special constraints like every node can have at most 2 children. BSTs are used in various fields and various jobs and can have more then one implementation.
