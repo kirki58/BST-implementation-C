@@ -145,7 +145,7 @@ int get_height(Node* root){
     return height(root,0);
 }
 static int depth(Node* root, Node* nd, int dt){
-    if(!isInTree(root,val)){
+    if(!isInTree(root,nd->data)){
         printf("No node as \n",nd->data);
         return;
     }
